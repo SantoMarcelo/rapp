@@ -1,8 +1,8 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    addressable (2.5.2)
-      public_suffix (>= 2.0.2, < 4.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     allure-rspec (0.8.0)
       allure-ruby-adaptor-api (= 0.7.0)
       rspec (~> 3.5)
@@ -37,7 +37,8 @@ GEM
     ffi (1.9.23-x64-mingw32)
     geckodriver-helper (0.0.4)
       archive-zip (~> 0.7.0)
-    httparty (0.16.1)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     i18n (1.0.0)
       concurrent-ruby (~> 1.0)
@@ -64,8 +65,7 @@ GEM
       slop (~> 3.4)
     pry_debug (0.1.0)
       pry (~> 0.9.0)
-    public_suffix (3.0.2)
-    racc (1.6.0)
+    public_suffix (5.0.0)
     rack (2.0.4)
     rack-test (0.8.3)
       rack (>= 1.0, < 3)
